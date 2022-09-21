@@ -1,0 +1,20 @@
+.button {
+    background-color: rgba(34, 197, 94, 1);
+    border: 1px;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem;
+    border-radius: 1.9rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.active\:hover\:bg-green-700:hover:active {
+    background-color: darkgreen;
+}
