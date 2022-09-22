@@ -19,7 +19,13 @@
     background-color: darkgreen;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 300px) and (max-width: 640px) {
+    .button {
+        width: 97%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
     .button {
         width: 100%;
     }
