@@ -18,3 +18,9 @@
 .active\:hover\:bg-green-700:hover:active {
     background-color: darkgreen;
 }
+
+@media (min-width: 640px) {
+    .button {
+        width: 100%;
+    }
+}
