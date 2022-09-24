@@ -492,8 +492,8 @@
 
     .hero-section-side {
         margin-top: 0rem;
-        height: 41rem;
-        padding-left: 15rem;
+        height: 50rem;
+        padding-left: 18rem;
     }
 
     .hero-section-bg {
@@ -508,6 +508,7 @@
 
     .scroll-down {
         bottom: -0.5rem;
+        z-index: 30;
     }
 
 }

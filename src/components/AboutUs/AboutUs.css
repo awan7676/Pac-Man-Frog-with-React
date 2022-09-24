@@ -107,3 +107,16 @@
     max-width: 11rem;
 
 }
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .about-us {
+        background-position-x: left;
+        left: -8px;
+        top: 0.5rem;
+    }
+
+
+    .cards-area {
+        padding-left: 1rem;
+    }
+}
