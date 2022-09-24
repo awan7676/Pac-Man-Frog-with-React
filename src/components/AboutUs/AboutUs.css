@@ -51,61 +51,31 @@
 }
 
 
-.cards-area {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: max-content;
-    width: 100%;
-    max-width: 64rem;
-    justify-content: center;
-    gap: 3rem;
-    padding-bottom: 1.5rem;
-    overflow-x: hidden;
-}
+@media (min-width: 300px) and (max-width: 640px) {
+    .about-us {
+        background-position-x: left;
+        left: -8px;
+        width: 98%;
+        background-size: 23rem 30rem;
+        top: 1.5rem;
+        align-items: stretch;
+    }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-    padding-top: 1.75rem;
-    padding-bottom: 1.5rem;
-    height: 13.5rem;
-    width: 11.5rem;
-    background-image: url(../../../public/img/what-do-we-do-card.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+    .main-heading {
+        margin-top: 5rem;
+        padding-left: 0rem;
+    }
 
-.card-heading {
-    display: flex;
-    max-width: 11rem;
-}
+    .what-do-we-do-heading {
+        font-size: 1.95rem;
+        margin-top: 2rem;
+        padding-left: 1rem;
+    }
 
-.card-img {
-    height: 3rem;
-    object-fit: contain;
-}
-
-.card-name {
-    display: flex;
-    flex-direction: column;
-    font-family: Montserrat, sans-serif;
-    padding-left: .75rem;
-    font-weight: 900;
-    font-size: .875rem;
-    line-height: 1.25rem;
-}
-
-.card-content {
-    font-family: Montserrat, sans-serif;
-    font-size: .75rem;
-    line-height: 1rem;
-    margin-top: 1.25rem;
-    font-weight: 300;
-    max-width: 11rem;
-
+    .description {
+        padding-left: 0.5rem;
+        font-size: 0.875rem;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -126,10 +96,6 @@
         font-size: 2.25rem;
     }
 
-    .cards-area {
-        padding-left: 2rem;
-        gap: 2rem;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
@@ -137,10 +103,5 @@
         background-position-x: left;
         left: -8px;
         top: 0.5rem;
-    }
-
-
-    .cards-area {
-        padding-left: 1rem;
     }
 }
