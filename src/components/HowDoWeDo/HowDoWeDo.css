@@ -1,0 +1,110 @@
+.how-do-we-do {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 2.5rem;
+    width: 99%;
+    position: relative;
+    top: -21rem;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0.25px;
+}
+
+.uncolored-heading {
+    margin-bottom: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+}
+
+.colored-heading {
+    font-weight: 900;
+    color: rgba(22, 163, 74, 1);
+    padding-left: 0.5rem;
+}
+
+.description {
+    max-width: 36rem;
+    font-size: .8rem;
+    line-height: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.page-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 0rem;
+}
+
+.content {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.block-heading {
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.block-description {
+    max-width: 24rem;
+    font-size: .8rem;
+    line-height: 1rem;
+    font-family: Open Sans, sans-serif;
+}
+
+.img-div {
+    margin-top: 1.75rem;
+    position: relative;
+    right: 2.5rem;
+}
+
+.img {
+    height: 20rem;
+    object-fit: contain;
+}
+
+
+@media (min-width: 300px) and (max-width: 640px) {}
+
+@media (min-width: 641px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .how-do-we-do {
+        top: -1rem;
+    }
+
+    .block-description {
+        max-width: 20rem;
+    }
+
+    .page-body {
+        gap: 4rem;
+    }
+
+
+    .block-description {}
+}

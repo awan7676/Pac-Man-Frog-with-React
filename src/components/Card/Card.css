@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.5rem;
+    height: 13.5rem;
+    width: 11.5rem;
+    background-image: url(../../../public/img/what-do-we-do-card.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-heading {
+    display: flex;
+    max-width: 11rem;
+}
+
+.card-img {
+    height: 3rem;
+    object-fit: contain;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+    padding-left: .75rem;
+    font-weight: 900;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.card-content {
+    font-family: Montserrat, sans-serif;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    max-width: 11rem;
+
+}

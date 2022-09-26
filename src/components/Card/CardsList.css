@@ -1,0 +1,51 @@
+.cards-area-desktop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 100%;
+    max-width: 64rem;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 1.5rem;
+    overflow-x: hidden;
+}
+
+.cards-area-responsive {
+    display: none;
+}
+
+@media (min-width: 300px) and (max-width: 640px) {
+    .cards-area-desktop {
+        display: none;
+    }
+
+    .cards-area-responsive {
+        display: flex;
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .cards-area-desktop {
+        padding-left: 2rem;
+        gap: 2rem;
+    }
+
+    .cards-area-responsive {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .cards-area-desktop {
+        padding-left: 1rem;
+    }
+
+    .cards-area-responsive {
+        display: none;
+    }
+
+}
