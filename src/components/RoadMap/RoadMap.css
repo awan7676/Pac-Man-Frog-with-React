@@ -76,9 +76,33 @@
 
 
 @media (min-width: 300px) and (max-width: 640px) {
-    /* .road-map {
-        top: -10rem;
-    } */
+    .road-map {
+        top: -5rem;
+        width: 89%;
+    }
+
+    .road-map-background-img {
+        top: -15rem;
+        right: 0.25rem;
+        height: 185%;
+        width: 22rem;
+    }
+
+    .road-map-uncolored-heading {
+        font-size: 3rem;
+        max-width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .road-map-img-large {
+        display: none;
+    }
+
+    .road-map-img-small {
+        display: block;
+    }
+
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
