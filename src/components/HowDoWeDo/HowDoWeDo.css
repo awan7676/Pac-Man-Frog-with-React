@@ -107,6 +107,7 @@
 @media (min-width: 641px) and (max-width: 768px) {
     .how-do-we-do {
         top: -7rem;
+        width: 95%;
     }
 
 

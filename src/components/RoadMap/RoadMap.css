@@ -1,5 +1,4 @@
 .road-map {
-    position: relative;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     display: flex;
@@ -82,7 +81,30 @@
     } */
 }
 
-@media (min-width: 641px) and (max-width: 768px) {}
+@media (min-width: 641px) and (max-width: 768px) {
+    .road-map {
+        top: -5rem;
+        width: 94%;
+    }
+
+    .road-map-background-img {
+        top: -28rem;
+        right: 1.7rem;
+    }
+
+    .road-map-uncolored-heading {
+        font-size: 2.95rem;
+    }
+
+    .road-map-img-large {
+        display: none;
+    }
+
+    .road-map-img-small {
+        display: block;
+    }
+
+}
 
 @media (min-width: 769px) and (max-width: 1300px) {
     .road-map {
