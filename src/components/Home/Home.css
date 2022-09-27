@@ -405,7 +405,7 @@
 
     .hero-section-bg {
         position: absolute;
-        right: -8px;
+        right: -1.25rem;
         top: 39rem;
         width: 83%;
         height: 80%;
@@ -421,6 +421,7 @@
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
+
     .nav-bar {
         width: 99%;
         padding-top: 1.5rem;
