@@ -1,3 +1,7 @@
+.Home {
+    width: 100%;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -322,6 +326,7 @@
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
+
     .nav-bar {
         display: flex;
         justify-content: space-between;
