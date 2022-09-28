@@ -54,7 +54,27 @@
 
 }
 
-@media (min-width: 300px) and (max-width: 640px) {}
+@media (min-width: 300px) and (max-width: 640px) {
+    .power-of-pac {
+        top: -4rem;
+        padding-left: 1rem;
+    }
+
+    .power-of-pac-heading {
+        gap: 1.5rem;
+    }
+
+    .power-of-pac-uncolored-heading {
+        font-size: 1.85rem;
+        line-height: 1;
+    }
+
+    .power-of-pac-description {
+        max-width: 35rem;
+        font-size: .85rem;
+        line-height: 1rem;
+    }
+}
 
 @media (min-width: 641px) and (max-width: 768px) {
     .power-of-pac {
