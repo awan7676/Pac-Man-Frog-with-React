@@ -1,0 +1,25 @@
+.power-of-pac-card {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    background-image: url(../../../public/img/rectangle_power_pac.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 17rem;
+
+}
+
+.card-tick {
+    height: 1rem;
+    object-fit: contain;
+}
+
+.power-of-pac-card-name {
+    color: rgba(22, 163, 74, 1);
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 0.85rem;
+}
