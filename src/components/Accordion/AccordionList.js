@@ -1,11 +1,11 @@
 import React from 'react';
 import Accordion from './Accordion';
-import './AccordionList.css';
+import Styles from './AccordionList.module.css';
 import { accordionData } from './AccordionData';
 
 function AccordionList() {
     return (
-        <div className='accordion'>
+        <div className={Styles.accordion}>
             {accordionData.map(item => <Accordion question={item.question} answer={item.answer} />)}
         </div>
     )

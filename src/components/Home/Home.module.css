@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.nav-bar {
+.nav_bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@
     top: 0;
 }
 
-.nav-first-item {
+.nav_first_item {
     display: flex;
     align-items: center;
     padding-left: 9.25rem;
@@ -21,9 +21,11 @@
     font-family: sans-serif;
 }
 
-.nav-heading {
+.nav_heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 
 }
 
@@ -32,20 +34,15 @@
     object-fit: contain;
 }
 
-.font-bold {
+.font_bold {
     font-weight: 900;
 }
 
-.font-medium {
+.font_medium {
     font-weight: 500;
 }
 
-.text-large {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-}
-
-.menu-button {
+.menu_button {
     display: inline-flex;
     width: 100%;
     justify-content: center;
@@ -58,16 +55,20 @@
     padding-bottom: .5rem;
 }
 
-.active\:hover\:bg-gray-100:hover:active {
-    background-color: rgba(243, 244, 246, 1)
+.menu_button:hover {
+    background-color: rgba(243, 244, 246, 1);
 }
 
-.menu-img {
+.menu_button:active {
+    background-color: rgba(243, 244, 246, 1);
+}
+
+.menu_img {
     height: 1.5rem;
     object-fit: contain;
 }
 
-.menu-div {
+.menu_div {
     position: relative;
     z-index: 30;
     display: inline-block;
@@ -75,7 +76,7 @@
     padding-right: 9.25rem;
 }
 
-.drop-down-div {
+.drop_down_div {
     position: absolute;
     z-index: 30;
     top: -1rem;
@@ -83,13 +84,13 @@
 
 }
 
-.home-container {
+.home_container {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.home-content {
+.home_content {
     display: flex;
     height: 100%;
     width: 100%;
@@ -98,7 +99,7 @@
     padding-bottom: 1.5rem
 }
 
-.first-column {
+.first_column {
     margin-top: 7rem;
     padding-left: 11rem;
     display: flex;
@@ -160,11 +161,7 @@
     justify-content: start
 }
 
-.active\:hover\:bg-green-700:hover:active {
-    background-color: darkgreen;
-}
-
-.icon-svg {
+.icon_svg {
     width: max-content;
     color: white;
     height: 1em;
@@ -175,21 +172,29 @@
     border-radius: 9999px;
 }
 
+.icon_svg:hover {
+    background-color: darkgreen;
+}
 
-.bg-images {
+
+.icon_svg:active {
+    background-color: darkgreen;
+}
+
+.bg_images {
     display: flex;
     justify-content: center;
     width: 50%;
 }
 
-.hero-section-side {
+.hero_section_side {
     margin-top: 0.875rem;
     margin-right: 11rem;
     height: 69%;
     object-fit: contain;
 }
 
-.hero-section-bg {
+.hero_section_bg {
     position: absolute;
     right: 52px;
     top: 25px;
@@ -199,7 +204,7 @@
     margin-top: 5.1rem
 }
 
-.scroll-down {
+.scroll_down {
     position: relative;
     display: flex;
     height: 0;
@@ -210,18 +215,18 @@
     bottom: 22.375rem;
 }
 
-.scroll-down-img {
+.scroll_down_img {
     height: 2.5rem;
     object-fit: contain;
 }
 
-.scroll-down-text {
+.scroll_down_text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-top: 0.15rem;
 }
 
-.scroll-down-link {
+.scroll_down_link {
     text-decoration: none;
     color: black;
 }
@@ -230,7 +235,7 @@
 
 @media (min-width: 300px) and (max-width: 640px) {
 
-    .nav-bar {
+    .nav_bar {
         display: flex;
         justify-content: space-between;
         position: absolute;
@@ -238,26 +243,26 @@
         align-items: center;
     }
 
-    .nav-first-item {
+    .nav_first_item {
         padding-left: 1.5rem;
     }
 
-    .menu-div {
+    .menu_div {
         padding-right: 2rem;
     }
 
-    .drop-down-div {
+    .drop_down_div {
         right: 16.5rem;
 
     }
 
-    .home-content {
+    .home_content {
         display: flex;
         flex-direction: column;
         padding-top: 0.5rem;
     }
 
-    .first-column {
+    .first_column {
         margin-top: 9rem;
         padding-left: 0.5rem;
         width: 100%;
@@ -299,27 +304,27 @@
         justify-content: center;
     }
 
-    .bg-images {
+    .bg_images {
         display: flex;
         justify-content: center;
         padding-left: 1rem;
         width: 60%;
     }
 
-    .hero-section-side {
+    .hero_section_side {
         margin-top: 5rem;
         height: 21rem;
         padding-left: 16rem;
     }
 
-    .hero-section-bg {
+    .hero_section_bg {
         right: -0.5rem;
         top: 39rem;
         width: 75%;
         height: 52%;
     }
 
-    .scroll-down {
+    .scroll_down {
         bottom: -1.5rem;
         z-index: 30;
     }
@@ -328,7 +333,7 @@
 
 @media (min-width: 641px) and (max-width: 768px) {
 
-    .nav-bar {
+    .nav_bar {
         display: flex;
         justify-content: space-between;
         position: absolute;
@@ -336,26 +341,26 @@
         align-items: center;
     }
 
-    .nav-first-item {
+    .nav_first_item {
         padding-left: 3.5rem;
     }
 
-    .menu-div {
+    .menu_div {
         padding-right: 3.65rem;
     }
 
-    .drop-down-div {
+    .drop_down_div {
         right: 17.5rem;
 
     }
 
-    .home-content {
+    .home_content {
         display: flex;
         flex-direction: column;
         padding-top: 2rem;
     }
 
-    .first-column {
+    .first_column {
         margin-top: 9rem;
         padding-left: 7.5rem;
         width: 60%;
@@ -396,20 +401,20 @@
         justify-content: center;
     }
 
-    .bg-images {
+    .bg_images {
         display: flex;
         justify-content: center;
         padding-left: 7.5rem;
         width: 60%;
     }
 
-    .hero-section-side {
+    .hero_section_side {
         margin-top: 4rem;
         height: 24rem;
         padding-left: 13rem;
     }
 
-    .hero-section-bg {
+    .hero_section_bg {
         position: absolute;
         right: -0.75rem;
         top: 39rem;
@@ -419,7 +424,7 @@
         margin-top: 5.1rem
     }
 
-    .scroll-down {
+    .scroll_down {
         bottom: 1rem;
         z-index: 30;
     }
@@ -428,31 +433,31 @@
 
 @media (min-width: 769px) and (max-width: 1300px) {
 
-    .nav-bar {
+    .nav_bar {
         width: 99%;
         padding-top: 1.5rem;
     }
 
-    .nav-first-item {
+    .nav_first_item {
         padding-left: 5.5rem;
     }
 
-    .menu-div {
+    .menu_div {
         padding-right: 6rem;
     }
 
-    .drop-down-div {
+    .drop_down_div {
         right: 20.5rem;
 
     }
 
-    .home-content {
+    .home_content {
         display: flex;
         flex-direction: column;
         padding-top: 2rem;
     }
 
-    .first-column {
+    .first_column {
         margin-top: 7rem;
         padding-left: 7.5rem;
         width: 60%;
@@ -493,20 +498,20 @@
         justify-content: flex-start;
     }
 
-    .bg-images {
+    .bg_images {
         display: flex;
         justify-content: center;
         padding-left: 7.5rem;
         width: 60%;
     }
 
-    .hero-section-side {
+    .hero_section_side {
         margin-top: 0rem;
         height: 50rem;
         padding-left: 18rem;
     }
 
-    .hero-section-bg {
+    .hero_section_bg {
         position: absolute;
         right: -0.5rem;
         top: 33rem;
@@ -516,7 +521,7 @@
         margin-top: 5.1rem
     }
 
-    .scroll-down {
+    .scroll_down {
         bottom: -0.5rem;
         z-index: 30;
     }

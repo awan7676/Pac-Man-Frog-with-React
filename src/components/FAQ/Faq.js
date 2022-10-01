@@ -1,29 +1,29 @@
 import React from 'react';
-import './Faq.css';
+import Styles from './Faq.module.css';
 import AccordionList from '../Accordion/AccordionList';
 import Button from '../Button/Button';
 
 function Faq() {
     return (
-        <div className='faq' id='faq-id'>
-            <div className='faq-heading'>
-                <span className='faq-uncolored-heading'>
+        <div className={Styles.faq} id='faq-id'>
+            <div className={Styles.main_heading}>
+                <span className={Styles.uncolored_part}>
                     Frequently Asked
-                    <span className='faq-colored-heading'>
+                    <span className={Styles.colored_part}>
                         Questions
                     </span>
                 </span>
             </div>
             <AccordionList />
-            <div className='footer'>
-                <div className='footer-button'>
+            <div className={Styles.footer}>
+                <div className={Styles.footer_button}>
                     <Button text="Enter Presale" />
                 </div>
-                <div className='footer-title'>
-                    <img className='what-do-img-footer' src="/img/what_do_img.png" alt="what_do_img" />
-                    <span className='footer-heading'>Pac-Man<span className='font-bold'>Frog</span></span>
+                <div className={Styles.footer_title}>
+                    <img className={Styles.what_do_img_footer} src="/img/what_do_img.png" alt="what_do_img" />
+                    <span className={Styles.footer_heading}>Pac-Man<span className={Styles.font_bold}>Frog</span></span>
                 </div>
-                <span className='rights-reserved'>© 2019
+                <span className={Styles.rights_reserved}>© 2019
                     Pacman Frog. All rights reserved.
                 </span>
             </div>

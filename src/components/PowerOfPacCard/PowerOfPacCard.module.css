@@ -1,4 +1,4 @@
-.power-of-pac-card {
+.power_of_pac_card {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
     background-image: url(../../../public/img/rectangle_power_pac.png);
@@ -12,12 +12,12 @@
 
 }
 
-.card-tick {
+.card_tick {
     height: 1rem;
     object-fit: contain;
 }
 
-.power-of-pac-card-name {
+.power_of_pac_card_name {
     color: rgba(22, 163, 74, 1);
     font-family: Montserrat, sans-serif;
     font-weight: 900;

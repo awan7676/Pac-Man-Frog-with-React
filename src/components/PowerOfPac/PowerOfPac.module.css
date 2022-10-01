@@ -1,4 +1,4 @@
-.power-of-pac {
+.power_of_pac {
     padding-right: 1.25rem;
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -12,7 +12,7 @@
     top: -8rem;
 }
 
-.power-of-pac-heading {
+.main_heading {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     gap: 2rem;
 }
 
-.power-of-pac-uncolored-heading {
+.uncolored_part {
     font-family: Montserrat, sans-serif;
     font-size: 3rem;
     line-height: 1;
@@ -28,13 +28,13 @@
     margin-bottom: 1rem;
 }
 
-.power-of-pac-colored-heading {
+.colored_part {
     color: rgba(22, 163, 74, 1);
     font-weight: 900;
     padding-left: 1rem;
 }
 
-.power-of-pac-description {
+.description {
     font-family: Open Sans, sans-serif;
     text-align: center;
     max-width: 53rem;
@@ -43,7 +43,7 @@
     font-weight: 400;
 }
 
-.power-of-pac-content {
+.content {
     max-width: 72rem;
     width: 100%;
     display: flex;
@@ -55,22 +55,22 @@
 }
 
 @media (min-width: 300px) and (max-width: 640px) {
-    .power-of-pac {
+    .power_of_pac {
         top: -4rem;
         padding-left: 0rem;
         padding-right: 0rem;
     }
 
-    .power-of-pac-heading {
+    .power_of-pac_heading {
         gap: 1.5rem;
     }
 
-    .power-of-pac-uncolored-heading {
+    .uncolored_part {
         font-size: 1.85rem;
         line-height: 1;
     }
 
-    .power-of-pac-description {
+    .description {
         max-width: 35rem;
         font-size: .85rem;
         line-height: 1rem;
@@ -78,17 +78,17 @@
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-    .power-of-pac {
+    .power_of_pac {
         top: -5rem;
         width: 97%;
     }
 
-    .power-of-pac-uncolored-heading {
+    .uncolored_part {
         font-size: 2rem;
         line-height: 1;
     }
 
-    .power-of-pac-description {
+    .description {
         max-width: 35rem;
         font-size: .75rem;
         line-height: 1rem;
@@ -96,12 +96,12 @@
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
-    .power-of-pac {
+    .power_of_pac {
         top: -1rem;
         width: 98%;
     }
 
-    .power-of-pac-heading {
+    .main_heading {
         max-width: 90%;
     }
 }

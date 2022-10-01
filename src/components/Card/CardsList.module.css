@@ -1,4 +1,4 @@
-.cards-area-desktop {
+.cards_area_desktop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,16 +11,16 @@
     overflow-x: hidden;
 }
 
-.cards-area-responsive {
+.cards_area_responsive {
     display: none;
 }
 
 @media (min-width: 300px) and (max-width: 640px) {
-    .cards-area-desktop {
+    .cards_area_desktop {
         display: none;
     }
 
-    .cards-area-responsive {
+    .cards_area_responsive {
         display: flex;
         width: 100%;
         padding-left: 0.5rem;
@@ -29,22 +29,22 @@
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-    .cards-area-desktop {
+    .cards_area_desktop {
         padding-left: 2rem;
         gap: 2rem;
     }
 
-    .cards-area-responsive {
+    .cards_area_responsive {
         display: none;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
-    .cards-area-desktop {
+    .cards_area_desktop {
         padding-left: 1rem;
     }
 
-    .cards-area-responsive {
+    .cards_area_responsive {
         display: none;
     }
 

@@ -1,15 +1,15 @@
 import React from 'react';
-import './AboutUs.css';
+import Styles from './AboutUs.module.css';
 import CardsList from '../Card/CardsList';
 function AboutUs() {
     return (
-        <div className='about-us' id='abt-us'>
-            <div className='main-heading'>
-                <span className='what-do-we-do-heading'>
+        <div className={Styles.about_us} id='abt-us'>
+            <div className={Styles.main_heading}>
+                <span className={Styles.uncolored_part}>
                     What Do
-                    <span className='We-Do'>We Do?</span>
+                    <span className={Styles.colored_part}>We Do?</span>
                 </span>
-                <span className='description'>Pacman Frog is set on the
+                <span className={Styles.description}>Pacman Frog is set on the
                     initiative of building a decentralized community by offering a diverse set of services in
                     its ever-evolving ecosystem.</span>
             </div>

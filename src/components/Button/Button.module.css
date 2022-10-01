@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-.active\:hover\:bg-green-700:hover:active {
+.button:hover {
     background-color: darkgreen;
 }
 

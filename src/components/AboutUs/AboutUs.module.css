@@ -1,4 +1,4 @@
-.about-us {
+.about_us {
     display: flex;
     height: max-content;
     width: 99%;
@@ -14,7 +14,7 @@
 
 }
 
-.main-heading {
+.main_heading {
     display: flex;
     flex-direction: column;
     height: max-content;
@@ -24,7 +24,7 @@
 }
 
 
-.what-do-we-do-heading {
+.uncolored_part {
     font-family: Montserrat, sans-serif;
     display: flex;
     font-size: 2.75rem;
@@ -36,7 +36,7 @@
     padding-bottom: 1.5rem;
 }
 
-.We-Do {
+.colored_part {
     color: rgba(22, 163, 74, 1);
     font-weight: 900;
     width: max-content
@@ -52,7 +52,7 @@
 
 
 @media (min-width: 300px) and (max-width: 640px) {
-    .about-us {
+    .about_us {
         background-position-x: left;
         left: -8px;
         width: 98%;
@@ -61,12 +61,12 @@
         align-items: stretch;
     }
 
-    .main-heading {
+    .main_heading {
         margin-top: 5rem;
         padding-left: 0rem;
     }
 
-    .what-do-we-do-heading {
+    .uncolored_part {
         font-size: 1.95rem;
         margin-top: 2rem;
         padding-left: 1rem;
@@ -79,7 +79,7 @@
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-    .about-us {
+    .about_us {
         background-position-x: left;
         left: -8px;
         width: 97%;
@@ -87,19 +87,19 @@
         top: -1rem;
     }
 
-    .main-heading {
+    .main_heading {
         margin-top: 5rem;
         padding-left: 3rem;
     }
 
-    .what-do-we-do-heading {
+    .uncolored_part {
         font-size: 2.25rem;
     }
 
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
-    .about-us {
+    .about_us {
         background-position-x: left;
         left: -8px;
         top: 0.5rem;

@@ -1,4 +1,4 @@
-.sub-menu {
+.sub_menu {
     width: 14rem;
     position: absolute;
     list-style: none;
@@ -10,7 +10,7 @@
     border-radius: .25rem;
 }
 
-.sub-menu a {
+.sub_menu a {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
@@ -25,6 +25,6 @@
     text-decoration: none;
 }
 
-.sub-menu.clicked {
+.sub_menu.clicked {
     display: none;
 }

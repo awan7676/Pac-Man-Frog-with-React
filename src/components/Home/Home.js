@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './Home.css';
+import Styles from './Home.module.css';
 import Button from "../Button/Button";
 import DropDown from '../DropDown/DropDown';
 
@@ -8,40 +8,40 @@ import DropDown from '../DropDown/DropDown';
 function Home(props) {
     const [dropDown, setDropDown] = useState(false);
     return (
-        <div className='Home' id='home'>
-            <div className='nav-bar'>
-                <div className='nav-first-item'>
-                    <img className='what_do_img' src="/img/what_do_img.png" alt="what_do_img" />
-                    <span className='text-large nav-heading'>Pac-Man<span className='font-bold'>Frog</span></span>
+        <div className={Styles.Home} id='home'>
+            <div className={Styles.nav_bar}>
+                <div className={Styles.nav_first_item}>
+                    <img className={Styles.what_do_img} src="/img/what_do_img.png" alt="what_do_img" />
+                    <span className={Styles.nav_heading}>Pac-Man<span className={Styles.font_bold}>Frog</span></span>
                 </div>
-                <div className='menu-div'>
+                <div className={Styles.menu_div}>
                     <div>
-                        <button className='menu-button active:hover:bg-gray-100' type='button' onClick={() => setDropDown(!dropDown)} style={{ cursor: 'pointer' }}>
-                            <img className='menu-img' src="/img/menu_icon.png" alt="menu_icon" />
-                            <div className='drop-down-div'>
+                        <button className={Styles.menu_button} type='button' onClick={() => setDropDown(!dropDown)} style={{ cursor: 'pointer' }}>
+                            <img className={Styles.menu_img} src="/img/menu_icon.png" alt="menu_icon" />
+                            <div className={Styles.drop_down_div}>
                                 {dropDown && <DropDown />}
                             </div>
                         </button>
                     </div>
                 </div>
             </div>
-            <div className='home-container'>
-                <div className='home-content'>
-                    <div className='first-column'>
-                        <span className='span1'>Introducing</span>
-                        <span className='span2'>Pac-ManFrog</span>
-                        <span className='span3'>Fueled By Community.</span>
-                        <span className='span4'>Tailored for everyone.</span>
-                        <span className='span5'>Pacman Frog was conceived from an exclusive idea to build a decentralized community token on Solana leading
+            <div className={Styles.home_container}>
+                <div className={Styles.home_content}>
+                    <div className={Styles.first_column}>
+                        <span className={Styles.span1}>Introducing</span>
+                        <span className={Styles.span2}>Pac-ManFrog</span>
+                        <span className={Styles.span3}>Fueled By Community.</span>
+                        <span className={Styles.span4}>Tailored for everyone.</span>
+                        <span className={Styles.span5}>Pacman Frog was conceived from an exclusive idea to build a decentralized community token on Solana leading
                             the future of Web 3.0.</span>
-                        <div className='buttons'>
-                            <Button className="first-button" text="Enter Presale" />
-                            <Button className="second-button" text="Whitepaper" />
+                        <div className={Styles.buttons}>
+                            <Button className={Styles.first_button} text="Enter Presale" />
+                            <Button className={Styles.second_button} text="Whitepaper" />
                         </div>
-                        <div className='icons'>
+                        <div className={Styles.icons}>
                             <a
                                 href="https://www.instagram.com/pacmanfrogtoken"
-                                className='icon-svg active:hover:bg-green-700'>
+                                className={Styles.icon_svg}>
                                 <svg
                                     stroke="currentColor" fill="currentColor" strokeWidth="0"
                                     viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ function Home(props) {
                             </a>
                             <a
                                 href="https://twitter.com/PacmanfrogToken"
-                                className='icon-svg active:hover:bg-green-700'>
+                                className={Styles.icon_svg}>
                                 <svg
                                     stroke="currentColor" fill="currentColor" strokeWidth="0"
                                     viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ function Home(props) {
                             </a>
                             <a
                                 href="https://t.me/PACMANFROGOFFICIAL"
-                                className='icon-svg active:hover:bg-green-700'>
+                                className={Styles.icon_svg}>
                                 <svg
                                     stroke="currentColor" fill="currentColor" strokeWidth="0"
                                     viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -74,14 +74,14 @@ function Home(props) {
                             </a>
                         </div>
                     </div>
-                    <div className='bg-images'>
-                        <img className='hero-section-bg' src="/img/hero-section-bg.png" alt="hero-section-bg" />
-                        <img className='hero-section-side' src="/img/hero-section-side.svg" alt="hero-section-side" />
+                    <div className={Styles.bg_images}>
+                        <img className={Styles.hero_section_bg} src="/img/hero-section-bg.png" alt="hero-section-bg" />
+                        <img className={Styles.hero_section_side} src="/img/hero-section-side.svg" alt="hero-section-side" />
                     </div>
                 </div>
-                <div className='scroll-down'>
-                    <img className='scroll-down-img' src="/img/move-downward-icon.svg" alt="move_downward.svg" />
-                    <span className='scroll-down-text font-medium'><a className='scroll-down-link' href="#abt-us">SCROLL DOWN</a></span>
+                <div className={Styles.scroll_down}>
+                    <img className={Styles.scroll_down_img} src="/img/move-downward-icon.svg" alt="move_downward.svg" />
+                    <span className={Styles.scroll_down_text}><a className={Styles.scroll_down_link} href="#abt-us">SCROLL DOWN</a></span>
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Button.css';
+import Styles from './Button.module.css';
 
 function Button(props) {
     return (
         <div>
-            <button className='button active:hover:bg-green-700'>
+            <button className={Styles.button}>
                 {props.text}
             </button>
         </div>

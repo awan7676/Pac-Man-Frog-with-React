@@ -12,17 +12,17 @@
     background-repeat: no-repeat;
 }
 
-.card-heading {
+.card_heading {
     display: flex;
     max-width: 11rem;
 }
 
-.card-img {
+.card_img {
     height: 3rem;
     object-fit: contain;
 }
 
-.card-name {
+.card_name {
     display: flex;
     flex-direction: column;
     font-family: Montserrat, sans-serif;
@@ -32,7 +32,7 @@
     line-height: 1.25rem;
 }
 
-.card-content {
+.card_content {
     font-family: Montserrat, sans-serif;
     font-size: .75rem;
     line-height: 1rem;

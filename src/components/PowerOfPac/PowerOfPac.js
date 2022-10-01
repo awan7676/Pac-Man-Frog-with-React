@@ -1,17 +1,17 @@
 import React from 'react';
-import './PowerOfPac.css';
+import Styles from './PowerOfPac.module.css';
 import PowerOfPacCard from '../PowerOfPacCard/PowerOfPacCard';
 function PowerOfPac() {
     return (
-        <div className='power-of-pac' id='power-of-pac-id'>
-            <div className='power-of-pac-heading'>
-                <span className='power-of-pac-uncolored-heading'>
+        <div className={Styles.power_of_pac} id='power-of-pac-id'>
+            <div className={Styles.main_heading}>
+                <span className={Styles.uncolored_part}>
                     Power of
-                    <span className='power-of-pac-colored-heading'>
+                    <span className={Styles.colored_part}>
                         $PAC
                     </span>
                 </span>
-                <span className='power-of-pac-description'>
+                <span className={Styles.description}>
                     $PAC
                     is the governance token for the Pacman Frog DAO allowing holders to vote on the future
                     development of the project. Since our project is community-driven, $PAC aims to evolve as a
@@ -19,7 +19,7 @@ function PowerOfPac() {
                     more.
                 </span>
             </div>
-            <div className='power-of-pac-content'>
+            <div className={Styles.content}>
                 <PowerOfPacCard name="Governance Rights" />
                 <PowerOfPacCard name="Access Exclusive Content" />
                 <PowerOfPacCard name="$PAC Private Sale" />

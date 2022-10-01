@@ -1,4 +1,4 @@
-.accordion-item {
+.accordion_item {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -13,7 +13,7 @@
     border-bottom-left-radius: 1.5rem
 }
 
-.accordion-title {
+.accordion_title {
     display: flex;
     width: 95%;
     justify-content: space-between;
@@ -23,32 +23,32 @@
     align-items: center;
 }
 
-.accordion-question {
+.accordion_question {
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
     font-weight: 900;
 }
 
-.accordion-sign {
+.accordion_sign {
     color: rgba(52, 168, 96, 1);
     font-weight: 900;
     font-size: 2rem;
 }
 
-.accordion-title .accordion-sign {
+.accordion_title .accordion_sign {
     position: relative;
     right: 15px;
     bottom: 2px;
 }
 
-.accordion-content .accordion-sign {
+.accordion_content .accordion_sign {
     position: relative;
     bottom: 5px;
     font-size: 4rem;
     line-height: 1rem;
 }
 
-.accordion-content {
+.accordion_content {
     display: flex;
     padding-left: 2rem;
     margin-bottom: 1.5rem;
@@ -59,69 +59,69 @@
     height: 100%;
 }
 
-.accordion-answer {
+.accordion_answer {
     font-size: 1rem;
     line-height: 1rem;
 }
 
-.accordion-title:hover {
+.accordion_title:hover {
     cursor: pointer;
 }
 
 
 @media (min-width: 300px) and (max-width: 640px) {
-    .accordion-title {
+    .accordion_title {
         width: 70%;
     }
 
-    .accordion-title .accordion-sign {
+    .accordion_title .accordion_sign {
         right: -15px;
         bottom: 4px;
     }
 
-    .accordion-content {
+    .accordion_content {
         width: 85%;
     }
 
-    .accordion-answer {
+    .accordion_answer {
         font-size: 0.875rem;
     }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-    .accordion-title {
+    .accordion_title {
         width: 85%;
     }
 
-    .accordion-title .accordion-sign {
+    .accordion_title .accordion_sign {
         right: -20px;
         bottom: 4px;
     }
 
-    .accordion-content {
+    .accordion_content {
         width: 85%;
     }
 
-    .accordion-answer {
+    .accordion_answer {
         font-size: 0.875rem;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
-    .accordion-title {
+    .accordion_title {
         width: 85%;
     }
 
-    .accordion-title .accordion-sign {
+    .accordion_title .accordion_sign {
         right: -20px;
         bottom: 4px;
     }
 
-    .accordion-content {
+    .accordion_content {
         width: 85%;
     }
 
-    .accordion-answer {
+    .accordion_answer {
         font-size: 0.875rem;
     }
 }
