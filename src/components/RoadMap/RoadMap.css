@@ -133,9 +133,18 @@
     .road-map {
         top: -1.5rem;
         width: 97%;
+        padding-left: 0.65rem;
     }
 
     .road-map-background-img {
-        right: 2.15rem;
+        right: 2.5rem;
+    }
+
+    .road-map-img-large {
+        height: 40em;
+    }
+
+    .road-map-img-small {
+        display: none;
     }
 }
