@@ -1,0 +1,24 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    max-width: 56rem;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 640px) {}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .accordion {
+        max-width: 35rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+    .accordion {
+        max-width: 40rem;
+    }
+}

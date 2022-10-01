@@ -1,0 +1,103 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    gap: 3.5rem;
+    background-image: url(../../../public/img/shape_footer.png);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-position-x: 52px;
+    background-size: 88rem;
+    padding-bottom: 8rem;
+}
+
+.faq-uncolored-heading {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.faq-colored-heading {
+    color: rgba(22, 163, 74, 1);
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-button {
+    margin-bottom: 4rem;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.what-do-img-footer {
+    height: 2rem;
+    object-fit: contain;
+}
+
+.font-bold {
+    font-weight: 900;
+}
+
+.footer-heading {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: lighter;
+}
+
+.rights-reserved {
+    font-size: 0.6rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+@media (min-width: 300px) and (max-width: 640px) {}
+
+@media (min-width: 641px) and (max-width: 768px) {
+
+    .faq {
+        background-size: 140rem;
+        background-position-x: 0%;
+    }
+
+    .faq-uncolored-heading {
+        font-size: 2rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+    .faq {
+        background-size: 45rem;
+        background-position: 0 bottom;
+    }
+
+
+    .faq-uncolored-heading {
+        font-size: 2rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
