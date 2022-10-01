@@ -71,7 +71,18 @@
 }
 
 
-@media (min-width: 300px) and (max-width: 640px) {}
+@media (min-width: 300px) and (max-width: 640px) {
+    .faq {
+        background-size: 170rem;
+        background-position-x: 0%;
+    }
+
+    .faq-uncolored-heading {
+        font-size: 1.875rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
 
 @media (min-width: 641px) and (max-width: 768px) {
 

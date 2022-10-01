@@ -78,13 +78,14 @@
     .road-map {
         top: -5rem;
         width: 89%;
+        padding-right: 0rem;
     }
 
     .road-map-background-img {
         top: -15rem;
-        right: -1.5rem;
+        right: 1.35rem;
         height: 185%;
-        width: 22rem;
+        width: 15rem;
     }
 
     .road-map-uncolored-heading {

@@ -57,7 +57,8 @@
 @media (min-width: 300px) and (max-width: 640px) {
     .power-of-pac {
         top: -4rem;
-        padding-left: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .power-of-pac-heading {

@@ -92,16 +92,23 @@
     .how-do-we-do {
         top: -4rem;
         width: 90%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .uncolored-heading {
         font-size: 1.875rem;
+
     }
 
 
     .img-div {
         margin-top: 7rem;
-        right: 0.25rem;
+        right: -1rem;
+    }
+
+    .img {
+        height: 16rem;
     }
 }
 

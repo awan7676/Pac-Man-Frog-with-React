@@ -69,7 +69,24 @@
 }
 
 
-@media (min-width: 300px) and (max-width: 640px) {}
+@media (min-width: 300px) and (max-width: 640px) {
+    .accordion-title {
+        width: 70%;
+    }
+
+    .accordion-title .accordion-sign {
+        right: -15px;
+        bottom: 4px;
+    }
+
+    .accordion-content {
+        width: 85%;
+    }
+
+    .accordion-answer {
+        font-size: 0.875rem;
+    }
+}
 
 @media (min-width: 641px) and (max-width: 768px) {
     .accordion-title {
