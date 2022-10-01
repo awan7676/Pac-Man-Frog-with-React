@@ -3,7 +3,7 @@ import './PowerOfPac.css';
 import PowerOfPacCard from '../PowerOfPacCard/PowerOfPacCard';
 function PowerOfPac() {
     return (
-        <div className='power-of-pac'>
+        <div className='power-of-pac' id='power-of-pac-id'>
             <div className='power-of-pac-heading'>
                 <span className='power-of-pac-uncolored-heading'>
                     Power of

@@ -3,13 +3,12 @@ import { useState } from 'react';
 import './Home.css';
 import Button from "../Button/Button";
 import DropDown from '../DropDown/DropDown';
-import AboutUs from '../AboutUs/AboutUs';
 
 
 function Home(props) {
     const [dropDown, setDropDown] = useState(false);
     return (
-        <div className='Home'>
+        <div className='Home' id='home'>
             <div className='nav-bar'>
                 <div className='nav-first-item'>
                     <img className='what_do_img' src="/img/what_do_img.png" alt="what_do_img" />

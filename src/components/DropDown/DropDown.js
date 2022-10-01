@@ -8,7 +8,7 @@ function DropDown() {
       <ul className='sub-menu'>
         {drop_down_items.map(item => {
           return (
-            <li key={item.id}> {item.title} </li>
+            <a href={item.href} key={item.id}> {item.title} </a>
           );
 
         })}

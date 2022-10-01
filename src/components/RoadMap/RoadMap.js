@@ -3,7 +3,7 @@ import './RoadMap.css';
 
 function RoadMap() {
     return (
-        <div className='road-map'>
+        <div className='road-map' id='road-map-id'>
             <img className='road-map-background-img' src="/img/roadmap-bg.png" alt="roadmap-bg.png" />
             <div className='road-map-main-heading'>
                 <span className='road-map-uncolored-heading'>

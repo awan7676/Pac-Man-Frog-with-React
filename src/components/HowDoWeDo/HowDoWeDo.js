@@ -3,7 +3,7 @@ import './HowDoWeDo.css';
 
 function HowDoWeDo() {
     return (
-        <div className='how-do-we-do'>
+        <div className='how-do-we-do' id='how-do-we-do-id'>
             <div className='main-heading'>
                 <span className='uncolored-heading'>
                     How Do
